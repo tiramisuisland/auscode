@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+
+
+
+header{
+    background-color: aqua;
+    text-align: center;
+}
+
+.test {
+    border-top-width: 1px;    /* 设置顶部边框宽度 */
+    border-right-width: 12px; /* 设置右侧边框宽度 */
+    border-bottom-width: 1px; /* 设置底部边框宽度 */
+    border-left-width: 12px;  /* 设置左侧边框宽度 */
+    border-style: solid;      /* 设置边框样式 */
+    border-color: black;      /* 设置边框颜色 */
+}
+
+.container {
+    display: flex;          /* 使用flexbox布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;    /* 垂直居中 */
+    height: 100vh;          /* 使容器占满整个视窗高度 */
+}
+
+.box {
+    width: 150px;           /* 设置框的宽度 */
+    height: 150px;          /* 设置框的高度 */
+    border: 2px solid #000; /* 设置框的边框 */
+    display: flex;          /* 使用flexbox布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;    /* 垂直居中 */
+    margin: 0 50px;         /* 设置框之间的间距 */
+}
+
+.circle {
+    width: 100px;           /* 设置圆的直径 */
+    height: 100px;          /* 设置圆的直径 */
+    background-color: #4CAF50;  /* 设置圆的背景颜色 */
+    border-radius: 50%;     /* 设置边框半径为50%，使方形变成圆形 */
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #FF6347;
+}
